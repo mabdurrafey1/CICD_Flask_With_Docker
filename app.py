@@ -4,7 +4,7 @@ application = Flask(__name__)
 
 @application.route('/')
 def index():
-    return jsonify({"hello":"hello"})
+    return jsonify({"hello":"world"})
 
 @application.route('/check_overlap', methods=['POST'])
 def check_overlap():
