@@ -12,7 +12,7 @@ def test_index(client):
     response = client.get('/')
     data = json.loads(response.data)
     assert response.status_code == 200
-    assert data == {"hello": "world"}
+    assert data == {"hello": "world1"}
 
 def test_check_overlap(client):
     # Test case with overlapping ranges
