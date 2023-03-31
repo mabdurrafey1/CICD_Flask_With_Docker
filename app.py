@@ -1,18 +1,3 @@
-# from flask import Flask
-
-# application = Flask(__name__)
-
-
-# @application.route("/")
-# def hello():
-#     """Hello word method."""
-#     return "Hello Calvine - This is a one step!"
-
-
-# # run the app.
-# if __name__ == "__main__":
-#     application.run()
-
 from flask import Flask, request, jsonify
 
 application = Flask(__name__)
